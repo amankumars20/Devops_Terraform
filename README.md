@@ -1,0 +1,1 @@
+This terraform code will create a vpc in aws, then inside vpc it will create two subnet one is private and another is public subnet, then it will create two instaances in two subnets frotend instance in public subnet and backend instance in private subnet then with remote-exec pass two file forntend.sh and backend.sh to Forntend instance and backend instance respectively. 
